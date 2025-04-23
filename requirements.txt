@@ -1,0 +1,2 @@
+sympy
+pyqt5
