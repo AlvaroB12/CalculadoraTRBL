@@ -1,2 +1,7 @@
 sympy
-pyqt5
+numpy
+matplotlib
+Flask
+pytest
+requests
+PyQt5
