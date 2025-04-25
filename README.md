@@ -113,7 +113,11 @@ pytest tests/
 
 ## Licencia
 
-Este proyecto esta bajo la licencia ____ . Consulta el archivo **LICENSE** para mas detalles.
+Este proyecto esta bajo la licencia [CC BY-ND 4.0](https://creativecommons.org/license/by-nd/4.0/) . 
+
+Puedes usarlo y compartirlo libremente, siempre y cuando des credito y **no modifiques ni redistribuyas versiones alteradas del codigo**.
+
+Consulta el archivo **LICENSE** para mas detalles.
 
 
 ## Contribuciones
@@ -123,4 +127,4 @@ Este proyecto esta bajo la licencia ____ . Consulta el archivo **LICENSE** para 
 
 ## Creditos
 
-Hecho con cariño por Alvaro Bravo (TRBL) 
+Hecho con cariño por AlvaroB12 (TRBL)
