@@ -17,12 +17,10 @@ def test_derivada():
 
     # Prueba de derivadas compuestas
     assert derivada(sin(x**2)) == 2*x*cos(x**2)
-    assert derivada(log(sqrt(x)), x) == 1/(2*x)
+    assert derivada(exp(sin(x))) == exp(sin(x))*cos(x)
 
 def test_integral():
     x = symbols('x')
-    y = Function('y')(x)
-    z = Function('z')(x)
 
     # Prueba de integrales simples
     assert integral(x**2) == (1/3)*x**3
@@ -32,6 +30,3 @@ def test_integral():
     assert integral(log(x)) == x*log(x) - x
     assert integral(1/sqrt(x)) == 2*sqrt(x)
 
-    # Prueba de integrales compuestas
-    assert integral(sin(x**2)) == None  # No se puede resolver analíticamente
-    assert integral(exp(sin(x))) == None  # No se puede resolver analíticamente

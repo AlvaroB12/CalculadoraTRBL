@@ -12,4 +12,4 @@ def test_constantes():
     assert hasattr(constantes, 'tau'), "Constante tau should be defined"
     assert hasattr(constantes, 'g'), "Constante g should be defined"
     assert hasattr(constantes, 'c'), "Constante c should be defined"
-    assert hasattr(constantes, 'h'), "Constante h should be defined"
+    assert hasattr(constantes, 'sqrt2'), "Constante sqrt2 should be defined"
