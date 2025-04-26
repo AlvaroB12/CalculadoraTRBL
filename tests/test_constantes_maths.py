@@ -1,5 +1,5 @@
 import pytest
-from core.constantes_maths import constantes
+from calculadora.constantes_maths import constantes
 
 def test_constantes():
     # Test if the constantes module is imported correctly

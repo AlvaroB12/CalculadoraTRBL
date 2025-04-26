@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLineEdit, QTextEdit, QPushButton
-from core.parser import evaluar_expresion
-from core.historial import Historial
+from calculadora.parser import evaluar_expresion
+from calculadora.historial import Historial
 import sys
 
 class CalculadoraGUI(QWidget):

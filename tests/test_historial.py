@@ -1,5 +1,5 @@
 import pytest
-from core.historial import Historial
+from calculadora.historial import Historial
 
 def test_historial_initialization():
     # Test the initialization of the Historial class
