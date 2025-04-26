@@ -1,7 +1,7 @@
 sympy
 numpy
 matplotlib
-Flask
+flask
 pytest
 requests
 PyQt5
