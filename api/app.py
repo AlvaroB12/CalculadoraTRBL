@@ -1,8 +1,8 @@
 # api/app.py
 
 from flask import Flask, request, jsonify
-from ..core.parser import evaluar_expresion
-from ..core.simbolico import derivada, integral
+from core.parser import evaluar_expresion
+from core.simbolico import derivada, integral
 
 app = Flask(__name__)
 
