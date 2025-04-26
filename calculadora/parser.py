@@ -1,7 +1,7 @@
 import math
-from core.constantes_maths import constantes
-from gui.funciones import funciones_extra
-from core.simbolico import derivada, integral
+from calculadora.constantes_maths import constantes
+from calculadora.funciones import funciones_extra
+from calculadora.simbolico import derivada, integral
 
 def evaluar_expresion(expr):
     contexto = {

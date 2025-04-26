@@ -1,5 +1,5 @@
 import pytest
-from gui.funciones import * # Importa todas las funciones del módulo funciones.py
+from calculadora.funciones import * # Importa todas las funciones del módulo funciones.py
 
 def test_deg():
     assert deg(0) == 0
